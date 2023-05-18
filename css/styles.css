@@ -10,6 +10,9 @@
 
 .container {
   max-width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px 0;
 }
 
 body {
@@ -153,4 +156,8 @@ body {
 
 .footer .logo-web {
   color: #f4f4fd;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
 }
