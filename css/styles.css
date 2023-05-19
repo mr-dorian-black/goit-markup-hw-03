@@ -59,7 +59,7 @@ img {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #404bbf;
+  color: var(--hover-link-color);
 }
 
 .logo-web {
@@ -281,6 +281,8 @@ img {
 .filter-buttons .button:hover,
 .filter-buttons .button:focus {
   border: 1px solid transparent;
+  background-color: var(--button-hover-background);
+  color: white;
 }
 
 .filter-list {
