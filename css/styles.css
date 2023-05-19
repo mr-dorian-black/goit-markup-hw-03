@@ -9,10 +9,10 @@
 }
 
 .container {
+  display: flex;
   max-width: 1158px;
   margin-left: auto;
   margin-right: auto;
-  padding: 24px 0;
 }
 
 body {
@@ -31,11 +31,13 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--button-default-background);
+  margin-right: 76px;
 }
 
 .list {
   list-style: none;
   font-size: 16px;
+  padding: 0;
 }
 
 .nav-link {
@@ -160,4 +162,34 @@ body {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+}
+
+.header .container {
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+.page-nav .list {
+  display: flex;
+  gap: 24px;
+}
+
+.address .list {
+  display: flex;
+  gap: 24px;
+}
+
+.hero {
+  padding: 188px 472px;
+}
+
+.hero .container {
+  width: 496px;
+  display: flex;
+  flex-direction: column;
 }
