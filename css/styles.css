@@ -130,7 +130,7 @@ img {
   margin-bottom: 8px;
 }
 
-.section-tree {
+.section-three {
   padding-bottom: 120px;
 }
 
@@ -196,24 +196,6 @@ img {
 
 .team-desc .text {
   text-align: center;
-}
-
-.footer {
-  background-color: var(--main-text-color);
-  padding: 100px 0;
-}
-
-.footer .logo {
-  display: inline-block;
-  margin-bottom: 16px;
-}
-
-.footer .logo-web {
-  color: #f4f4fd;
-}
-
-.footer .text {
-  max-width: 264px;
 }
 
 .header {
@@ -303,4 +285,22 @@ img {
 
 .filter-list .title {
   margin-bottom: 8px;
+}
+
+.footer {
+  background-color: var(--main-text-color);
+  padding: 100px 0;
+}
+
+.footer .link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer .logo-web {
+  color: #f4f4fd;
+}
+
+.footer .text {
+  max-width: 264px;
 }
