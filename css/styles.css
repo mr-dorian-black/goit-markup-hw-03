@@ -293,7 +293,7 @@ img {
 }
 
 .footer .link {
-  display: inline-block;
+  display: block;
   margin-bottom: 16px;
 }
 
