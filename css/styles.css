@@ -20,7 +20,7 @@ img {
   display: block;
 }
 
-.container:not(.footer) {
+.container:not(.footer .container) {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
