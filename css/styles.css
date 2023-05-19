@@ -55,6 +55,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -117,23 +118,23 @@ img {
   border-radius: 4px;
 }
 
-.section-2 {
+.section-two {
   padding: 120px 0;
 }
 
-.section-2 .item {
+.section-two .item {
   width: calc((100% - 72px) / 4);
 }
 
-.section-2 .item .title {
+.section-two .item .title {
   margin-bottom: 8px;
 }
 
-.section-3 {
+.section-tree {
   padding-bottom: 120px;
 }
 
-.section-3 .item {
+.section-three .item {
   width: calc((100% - 48px) / 3);
 }
 
@@ -173,7 +174,7 @@ img {
   margin-bottom: 72px;
 }
 
-.section-4 {
+.section-four {
   padding: 120px 0;
   background-color: #f4f4fd;
 }
