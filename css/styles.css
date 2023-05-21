@@ -20,7 +20,7 @@ img {
   display: block;
 }
 
-.container:not(.footer .container) {
+.container:not(.footer .container):not(.header .container) {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -206,6 +206,7 @@ img {
 }
 
 .header .container {
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
